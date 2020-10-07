@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "invitees",
+  "info": {
+    "name": "Invitee"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "email_address": {
+      "type": "email"
+    }
+  }
+}
